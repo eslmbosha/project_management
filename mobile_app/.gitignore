@@ -1,0 +1,51 @@
+# اكتب محتوى .gitignore
+@"
+# ========== Flutter ==========
+.dart_tool/
+.pub/
+.pub-cache/
+.packages
+build/
+*.lock
+*.iml
+.idea/
+.vscode/
+.DS_Store
+pubspec.lock
+*.log
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.pyc
+env/
+venv/
+.venv/
+*.db
+*.sqlite3
+*.pyo
+*.pyd
+
+# ========== Environment ==========
+.env
+.env.local
+*.env
+
+# ========== IDE ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========== OS ==========
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ========== Logs ==========
+*.log
+npm-debug.log*
+"@ | Out-File -FilePath .gitignore -Encoding utf8
+
+Write-Host "✅ تم كتابة محتوى .gitignore" -ForegroundColor Green
